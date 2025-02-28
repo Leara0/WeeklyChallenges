@@ -1,0 +1,15 @@
+C:\Users\Sehers\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\bin\Debug\net8.0\ChallengesWithTestsMark8.exe
+C:\Users\Sehers\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\bin\Debug\net8.0\ChallengesWithTestsMark8.deps.json
+C:\Users\Sehers\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\bin\Debug\net8.0\ChallengesWithTestsMark8.runtimeconfig.json
+C:\Users\Sehers\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\bin\Debug\net8.0\ChallengesWithTestsMark8.dll
+C:\Users\Sehers\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\bin\Debug\net8.0\ChallengesWithTestsMark8.pdb
+C:\Users\Sehers\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net8.0\ChallengesWithTestsMark8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sehers\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net8.0\ChallengesWithTestsMark8.AssemblyInfoInputs.cache
+C:\Users\Sehers\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net8.0\ChallengesWithTestsMark8.AssemblyInfo.cs
+C:\Users\Sehers\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net8.0\ChallengesWithTestsMark8.csproj.CoreCompileInputs.cache
+C:\Users\Sehers\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net8.0\ChallengesWithTestsMark8.sourcelink.json
+C:\Users\Sehers\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net8.0\ChallengesWithTestsMark8.dll
+C:\Users\Sehers\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net8.0\refint\ChallengesWithTestsMark8.dll
+C:\Users\Sehers\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net8.0\ChallengesWithTestsMark8.pdb
+C:\Users\Sehers\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net8.0\ChallengesWithTestsMark8.genruntimeconfig.cache
+C:\Users\Sehers\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net8.0\ref\ChallengesWithTestsMark8.dll

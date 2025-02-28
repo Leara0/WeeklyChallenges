@@ -7,32 +7,80 @@ namespace ChallengesWithTestsMark8
     {
         public int GetNextNumberDivisibleByN(int startNumber, int n)
         {
-            throw new NotImplementedException();
+            int answer = startNumber+1;
+            while (answer % n != 0)
+            {
+                answer++;
+            }
+
+            return answer;
         }
 
         public void ChangeNamesOfBusinessesWithNoRevenueTo_CLOSED(Business[] businesses)
         {
-            throw new NotImplementedException();
+            for (int i = 0; i < businesses.Length; i++)
+                if (businesses[i].TotalRevenue == 0)
+                    businesses[i].Name = "CLOSED";
+            Console.WriteLine(businesses[0].Name + " " + businesses[0].TotalRevenue);
         }
 
         public bool IsAscendingOrder(int[] numbers)
         {
-            throw new NotImplementedException();
+            if (numbers == null || numbers.Length == 0)
+                return false;
+            var counter = 0;
+            for (var i = 0; i < numbers.Length - 1; i++)
+            {
+                if (numbers[i] < numbers[i + 1] || numbers[i] == numbers[i + 1])
+                    counter++;
+            }
+
+            return (counter == numbers.Length - 1);
         }
 
         public int SumElementsThatFollowAnEven(int[] numbers)
         {
-            throw new NotImplementedException();
+            var sum = 0;
+            if (numbers == null || numbers.Length == 0)
+                return 0;
+            for (var i = 0; i < numbers.Length - 1; i++)
+            {
+                if (Math.Abs(numbers[i]) % 2 == 0)
+                    sum += numbers[i+1];
+            }
+
+            return sum;
         }
+
 
         public string TurnWordsIntoSentence(string[] words)
         {
-            throw new NotImplementedException();
+            if (words == null || words.Length == 0)
+                return "";
+            string answer = "";
+            for (var i = 0; i<words.Length; i++)
+            {
+                if (words[i] != " " && words[i] != "" && words[i] != "  ")
+                    answer += words[i].Trim() + " ";
+            }
+            answer = answer.Trim() + ".";
+            if (answer == ".")
+                return "";
+            return answer;
         }
 
         public double[] GetEveryFourthElement(List<double> elements)
         {
-            throw new NotImplementedException();
+            if (elements == null || elements.Count == 0)
+                return new double[0];
+            List<double> result = new List<double>();
+            for (int i = 0; i < elements.Count; i++)
+            {
+                if ((i+1) % 4 == 0)
+                    result.Add(elements[i]);
+            }
+
+            return result.ToArray();
         }
 
         public bool TwoDifferentElementsInArrayCanSumToTargetNumber(int[] nums, int targetNumber)
